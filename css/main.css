@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background: url(../Fotos/Foto\ portada.jpg);
+    background: url('../Fotos/Foto\ portada.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -378,7 +378,7 @@ main h2{
 
 
 .atencionPer{
-    background: url(../Fotos/cont.jpg);
+    background: url('../Fotos/cont.jpg');
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
