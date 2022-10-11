@@ -845,11 +845,36 @@ footer img{
     }
 
     
+}
 
+@media only screen and (max-width: 480px) {
+    .menuEnca li{
+        padding: 10px;
+        font-size: 12px;
+    }
 
+    .introduccionEnca img{
+        width: 350px;
+        margin-bottom: 50px; 
+    }
 
+    .consultasEnca{
+        font-size: 12px;
+        
+    }
 
+    .atencionPer h5{
+        font-size: 30px;
+    }
 
+    .atencionPer p{
+        font-size: 15px;
+    }
+
+    .atencionPer a{
+        font-size: 15px;
+        margin-left: -95px;
+    }
 
 
 
