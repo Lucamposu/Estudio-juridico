@@ -1,0 +1,867 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+header{
+    background: url('/Fotos/Foto portada.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+    
+}
+
+.encabezadoLogo{
+    height: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    grid-template-areas: "imgLogo menuEnca" ;
+    
+}
+
+.imgLogo{
+    margin-top: 40px;
+    grid-area: imgLogo;
+    height: 70px;
+    text-align:start
+}
+
+.menuEnca{
+    margin-top: 40px;
+    grid-area: menuEnca;
+    text-align: end;
+    }
+    
+    .menuEnca li{
+        display: inline-block;
+        font-weight: bold;
+        padding: 20px;
+        margin-top: 10px;
+        color: #073650;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align:end;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .menuEnca li a{
+        color: #073650;
+        text-decoration: none;   
+    }
+
+.introduccionEnca{
+    margin-top: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #073650;
+}
+
+.introduccionEnca img{
+    width: 600px;
+    margin-bottom: 50px; 
+}
+
+.consultasEnca{
+    text-decoration: none;
+    font-weight: bold;
+    color: #073650;
+    padding: 10px 10px;
+    border: 2px solid white;
+    
+}
+
+.consultasEnca:hover{
+    background-color: white;
+}
+
+.mainNosotros{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main h2{
+    text-align: center;
+    color: #073650;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+
+
+.lineaContacto2{
+    border: 1px solid #DFB674;
+    width: 200px;
+    margin:0px auto;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+}
+.nosotrosSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.asensioVale{
+    text-align: center;  
+}
+
+.asensioVale img{
+    height: 300px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+    position: relative;
+}
+
+.lineaVale{
+    width: 120px;
+    height: 1px;
+    border: 1px solid #DFB674;
+    background-color: #DFB674;
+    margin-top: -30px;
+}
+
+.valeriaAs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.asensioA{
+    text-align: center;
+}
+
+.informacionV{
+    height: 120px;
+    text-align: start;
+    margin-left: 45px;
+}
+
+.informacionV h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #DFB674;
+    text-decoration: solid;
+}
+
+.informacionV p{
+    font-family: 'Poppins', sans-serif;
+    font-size:17px; 
+    
+}
+
+.fondoFoto{
+    width: 100%;
+    height: 300px;
+    background-color: #e0dad265;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%; 
+    margin-top: 40px; 
+}
+
+.fondoFoto2{
+    width: 100%;
+    height: 300px;
+    background-color: #e0dad265;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%; 
+    margin-top: 40px; 
+}
+
+
+.florenciaR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.informacionF{
+    height: 120px;  
+    margin-right: 50px;  
+}
+
+.informacionF h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #DFB674;
+    text-decoration: solid;
+}
+
+.informacionF p{
+    color:#073650 ;
+    font-size: 17px;
+    
+}
+
+.rodriguezFlor img{
+    height: 300px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+    position: relative;
+    margin-right: -50px;
+}
+
+.rodriguezA{
+    text-align: start;
+    
+}
+
+
+
+.lineaFlor{
+    width: 120px;
+    height: 1px;
+    border: 1px solid #DFB674;
+    background-color: #DFB674;
+    margin-top: -30px;
+}
+
+
+
+.areasPrac h4{
+    text-align: center;
+    color: #073650;
+    font-size: 25px;
+    margin-bottom: 90px;
+    font-family: 'Playfair Display', serif;
+}
+
+.areasAmbas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+.areasAmbas2{
+    display: flex;
+    justify-content: center;  
+    margin-top: 10px;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+
+.derechoCivil{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #DFB674;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.derechoCivil h5{
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #DFB674;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.derechoFamilia{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #DFB674;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.derechoFamilia h5{
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #DFB674;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.derechoAmparos{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #DFB674;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.derechoAmparos h5{
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #DFB674;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.derechoLaboral{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #DFB674;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.derechoLaboral h5{
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #DFB674;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.derechoComercial{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #DFB674;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.derechoComercial h5{
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #DFB674;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+.consultasE h5{
+    font-family: 'Playfair Display', serif;
+    color: #073650;
+    font-size: 25px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+.atencionPer{
+    background: url('/Fotos/cont.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.atencionPer h5{
+    font-family: 'Playfair Display', serif;
+    color: #073650;
+    text-transform: uppercase;
+    text-align:center ;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.atencionPer p{
+    font-family: 'Playfair Display', serif;
+    color: #073650;
+    text-align:center ;
+    padding-top: 10px;
+    
+    font-size: 17px;
+}
+
+.atencionPer a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #073650;
+    text-transform: uppercase;
+    align-content: center;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+.atencionPer a:hover{
+    background-color: white;
+}
+
+.textoForm{
+    font-family: 'Poppins', sans-serif;
+    color: #073650;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.contactoForm{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 150px;
+
+}
+
+.divFormulario{
+    margin-right: 50px;
+}
+
+
+.nombreContact{
+    padding-bottom: 30px;
+}
+
+.nombreContact label{
+    text-transform: uppercase;
+    color: #DFB674;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.nombreContact input{
+    width: 350px;
+    height: 40px;
+}
+
+.emailContact{
+    padding-bottom: 50px;
+    
+    
+}
+
+.emailContact label{
+    text-transform: uppercase;
+    color: #DFB674;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.emailContact input{
+    width: 350px;
+    height: 40px;
+}
+
+.mensajeContact{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensajeContact label{
+    text-transform: uppercase;
+    color: #DFB674;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mensajeContact textarea{
+    width: 350px;
+    height: 135px;
+}
+
+button{
+    padding: 10px;
+    text-transform: uppercase;
+    color: white ;
+    background-color: #DFB674;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+    
+    
+}
+
+
+
+.contactoE h5{
+    font-family: 'Playfair Display', serif;
+    color: #073650;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contacTanos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    padding-top: 30px;
+    
+}
+
+.infoContacto{
+    margin-right: 70px;
+    
+}
+
+
+.mailAr{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.mailAr span{
+    font-size: 30px;
+    color: #073650;
+    padding: 20px 20px 20px 0px;
+}
+
+.mailAr div{
+    padding: 20px;
+}
+
+.mailAr h5{
+    color: #DFB674;
+    font-size: 15px;
+}
+
+.telefonoAr{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.telefonoAr span{
+    font-size: 30px;
+    color: #073650;
+    padding: 20px 20px 20px 0px;
+}
+
+.telefonoAr div{
+    padding: 20px;
+}
+
+.telefonoAr h5{
+    color: #DFB674;
+    font-size: 15px;
+}
+
+.direccionAr{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.direccionAr span{
+    font-size: 30px;
+    color: #073650;
+    padding: 20px 20px 20px 0px;
+}
+
+.direccionAr div{
+    padding: 20px;
+}
+
+.direccionAr h5{
+    color: #DFB674;
+    font-size: 15px;
+}
+
+
+.fotoUbicacion{
+    margin-left: 70px;
+}
+
+.map-responsive{
+    
+    overflow:hidden;
+    padding-bottom:20%;
+    position:relative;
+    height:200px;
+    width: 300px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+}
+
+.map-responsive iframe{
+    
+    left: 0px;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    margin-right: 100px;
+    
+
+}
+
+.fotoUbicacion img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+
+}
+
+footer{
+    background-color: #ebdac4b9;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    
+
+    .encabezadoLogo{
+        height: 150px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        align-items: center;
+        grid-template-areas: "imgLogo menuEnca" ;
+        
+    }
+    
+    .imgLogo{
+        margin-top: 40px;
+        grid-area: imgLogo;
+        height: 60px;
+        text-align:start
+    }
+    
+    .menuEnca{
+        margin-top: 40px;
+        grid-area: menuEnca;
+        text-align: end;
+    }
+    .menuEnca li{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .introduccionEnca img{
+        width: 450px;  
+    }
+
+    .valeriaAs{
+        width: 338px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: flex-start;
+        margin-top: 150px;
+    }
+
+    .lineaVale{
+        margin-top: 20px;
+    }
+
+    .informacionV{
+        align-items: flex-start;
+        margin-left: 0px;
+    }
+
+    .asensioVale{
+        text-align: center;
+    }
+
+    .florenciaR{
+        width: 338px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+
+    .lineaFlor{
+        margin-bottom: 20px;
+        
+    }
+
+    .informacionF{
+        align-items: flex-start;
+        margin-left: 0px;
+        margin-bottom: 60px;
+        
+    }
+
+    .rodriguezFlor{
+        text-align: center;
+    }
+
+    .fondoFoto2{
+        margin-top:250px; 
+    }
+
+
+    .textoForm{
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .contactoForm{
+        margin-bottom: 300px;
+    }
+
+    .mensajeContact{
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    .atencionPer a{
+        position: absolute;
+        top: 50%;
+        margin-left: -70px;
+    }
+
+    .contacTanos{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .infoContacto{
+        margin-right: 0px;
+    }
+
+    .fotoUbicacion{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .map-responsive{
+    
+        overflow:hidden;
+        padding-bottom:20%;
+        position:relative;
+        height:200px;
+        width: 400px;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+    }
+    
+    .fotoUbicacion img{
+        height: 300px;
+        width: 400px;
+        object-fit: cover;
+        margin-top: 20px;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+    
+    }
+
+
+}
+
+@media only screen and (max-width: 600px){
+    
+
+    .encabezadoLogo{
+        height: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .imgLogo{
+        margin-top: 50px;
+        grid-area: imgLogo;
+        height: 60px;
+        text-align:start
+    }
+
+    .menuEnca{
+        margin-top: 20px;
+        grid-area: menuEnca;
+        text-align: end;
+    }
+
+    .menuEnca li{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .contactoForm{
+        margin-bottom: 300px;
+        margin-left: 40px;
+    }
+
+    .mensajeContact{
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+}
+
+
+    
+
+
+
+
+
+
