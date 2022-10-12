@@ -849,17 +849,19 @@ footer img{
 
 @media only screen and (max-width: 480px) {
 
+    header{
+        margin-bottom: 150px;
+    }
+
     .encabezadoLogo{
         height: 150px;
         margin-left: 15px;
-        margin-right: 15px;
-        
-    
+        margin-right: 15px;  
     }
 
     .menuEnca li{
         padding: 9px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .introduccionEnca img{
@@ -867,9 +869,26 @@ footer img{
         margin-bottom: 50px; 
     }
 
+    .mainNosotros{
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .valeriaAs{
+        
+        margin-top: 50px;
+    }
+
+    .areasPrac h4{
+        margin-bottom: 20px;
+    }
+
+    .consultasE h5{
+        margin-bottom: 20px;
+    }
+
     .consultasEnca{
         font-size: 12px;
-        
     }
 
     .atencionPer h5{
@@ -883,6 +902,37 @@ footer img{
     .atencionPer a{
         font-size: 15px;
         margin-left: -95px;
+    }
+
+    .mailAr{
+        margin-bottom: 20px;
+    }
+
+    .telefonoAr{
+        margin-bottom: 20px;
+    }
+
+    .direccionAr{
+        margin-bottom: 25px;
+    }
+
+    .map-responsive{
+    
+        overflow:hidden;
+        padding-bottom:20%;
+        position:relative;
+        height:200px;
+        width: 300px;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+    }
+    
+    .fotoUbicacion img{
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+        margin-top: 20px;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
+    
     }
 
 
