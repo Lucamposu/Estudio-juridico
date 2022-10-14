@@ -185,7 +185,7 @@ main h2{
     position: absolute;
     z-index: -1;
     opacity: 80%; 
-    margin-top: 40px; 
+    margin-top: 90px; 
 }
 
 
@@ -267,11 +267,16 @@ main h2{
 
 .derechoCivil{
     width: 250px;
-    height: 200px;
+    height: 250px;
     border: 1px solid #DFB674;
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
+}
+
+.derechoCivil:hover{
+    background-color:#e0dad265;
+    border: none;
 }
 
 .derechoCivil h5{
@@ -285,13 +290,18 @@ main h2{
 
 .derechoFamilia{
     width: 250px;
-    height: 200px;
+    height: 250px;
     border: 1px solid #DFB674;
     border-radius: 20px;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+}
+
+.derechoFamilia:hover{
+    background-color:#e0dad265;
+    border: none;
 }
 
 .derechoFamilia h5{
@@ -304,11 +314,16 @@ main h2{
 }
 .derechoAmparos{
     width: 250px;
-    height: 200px;
+    height: 250px;
     border: 1px solid #DFB674;
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
+}
+
+.derechoAmparos:hover{
+    background-color:#e0dad265;
+    border: none;
 }
 
 .derechoAmparos h5{
@@ -322,13 +337,18 @@ main h2{
 
 .derechoLaboral{
     width: 250px;
-    height: 200px;
+    height: 250px;
     border: 1px solid #DFB674;
     border-radius: 20px;
     text-align: center;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 20px;
+}
+
+.derechoLaboral:hover{
+    background-color:#e0dad265;
+    border: none;
 }
 
 .derechoLaboral h5{
@@ -342,13 +362,18 @@ main h2{
 
 .derechoComercial{
     width: 250px;
-    height: 200px;
+    height: 250px;
     border: 1px solid #DFB674;
     border-radius: 20px;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
+}
+
+.derechoComercial:hover{
+    background-color:#e0dad265;
+    border: none;
 }
 
 .derechoComercial h5{
@@ -637,7 +662,7 @@ button{
 .fotoUbicacion img{
     height: 200px;
     width: 300px;
-    object-fit: cover;
+    
     margin-top: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.099);
 
